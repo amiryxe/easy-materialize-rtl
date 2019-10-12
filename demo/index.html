@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>RTL Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="css/materialize-rtl.css">
+
+  <style>
+    h3 {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">لوگو</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#">لینک</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">پوسته ابتدایی</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">یک فریم‌ورک واکنش‌گرای فرانت‌اند مبتنی بر متریالایز</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button"
+          class="btn-large waves-effect waves-light orange">شروع کنید</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">سرعت بخشیدن به توسعه</h5>
+
+            <p class="light text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">تمرکز بر تجربه کاربری</h5>
+
+            <p class="light text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">کاربری آسان</h5>
+
+            <p class="light text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <h3 class="header orange-text">سرفصل‌ها</h3>
+    <div class="card-panel">
+      <h1>سرفصل h1</h1>
+      <h2>سرفصل h2</h2>
+      <h3>سرفصل h3</h3>
+      <h4>سرفصل h4</h4>
+      <h5>سرفصل h5</h5>
+      <h6>سرفصل h6</h6>
+    </div>
+
+    <h3 class="header orange-text">نشان‌ها: مجموعه</h3>
+    <div class="collection">
+      <a href="#!" class="collection-item"><span class="badge">1</span>متین</a>
+      <a href="#!" class="collection-item"><span class="new badge">4</span>امیر</a>
+      <a href="#!" class="collection-item">سارا</a>
+      <a href="#!" class="collection-item"><span class="badge">14</span>عرفان</a>
+    </div>
+
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">یک<span class="badge">1</span></a></li>
+      <li><a href="#!">دو<span class="new badge">1</span></a></li>
+      <li><a href="#!">سه</a></li>
+    </ul>
+    <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">دراپ‌داون<i
+        class="material-icons left">arrow_drop_down</i></a>
+
+
+    <h3 class="header orange-text">نشان‌ها: نوار منو</h3>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="" class="brand-logo">لوگو</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="">لینک</a></li>
+          <li><a href="">لینک <span class="new badge">4</span></a></li>
+          <li><a href="">لینک</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <h3 class="header orange-text">نشان‌ها: بازشونده</h3>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">filter_drama</i>
+          مورد اول
+          <span class="new badge">4</span></div>
+        <div class="collapsible-body">
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">place</i>
+          مورد دوم
+          <span class="badge">1</span></div>
+        <div class="collapsible-body">
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+          </p>
+        </div>
+      </li>
+    </ul>
+
+    <h3 class="header orange-text">دکمه‌ها</h3>
+    <a class="waves-effect waves-light btn">دکمه</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>دکمه</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>دکمه</a>
+
+
+    <h3 class="header orange-text">مسیر</h3>
+    <nav>
+      <div class="nav-wrapper" style="padding: 0 10px;">
+        <div class="col s12">
+          <a href="#!" class="breadcrumb">ابتدا</a>
+          <a href="#!" class="breadcrumb">دوم</a>
+          <a href="#!" class="breadcrumb">سوم</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <h3 class="header orange-text">کارت‌ها</h3>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">عنوان کارت</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">عنوان کارت</span>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#">لینک اول</a>
+            <a href="#">لینک دوم</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <h3 class="header orange-text">مجموعه‌ها</h3>
+    <ul class="collection with-header">
+      <li class="collection-header">
+        <h4>نام‌ها</h4>
+      </li>
+      <li class="collection-item">
+        <div>پارسا<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+      </li>
+      <li class="collection-item">
+        <div>سارا<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+      </li>
+      <li class="collection-item">
+        <div>امیر<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+      </li>
+      <li class="collection-item">
+        <div>عرفان<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+      </li>
+    </ul>
+
+
+
+
+    <ul class="collection">
+      <li class="collection-item avatar">
+        <i class="material-icons circle green">insert_chart</i>
+        <span class="title">عنوان</span>
+        <p>خط اول <br>
+          خط دوم
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle">folder</i>
+        <span class="title">عنوان</span>
+        <p>خط اول <br>
+          خط دوم
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle green">insert_chart</i>
+        <span class="title">عنوان</span>
+        <p>خط اول <br>
+          خط دوم
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle red">play_arrow</i>
+        <span class="title">عنوان</span>
+        <p>خط اول <br>
+          خط دوم
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+    </ul>
+
+
+    <h3 class="header orange-text">صفحه‌بندی</h3>
+    <ul class="pagination">
+      <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+      <li class="active"><a href="#!">1</a></li>
+      <li class="waves-effect"><a href="#!">2</a></li>
+      <li class="waves-effect"><a href="#!">3</a></li>
+      <li class="waves-effect"><a href="#!">4</a></li>
+      <li class="waves-effect"><a href="#!">5</a></li>
+      <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    </ul>
+
+
+    <h3 class="header orange-text">بازشوند‌ه‌ها</h3>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">filter_drama</i>اول</div>
+        <div class="collapsible-body"><span>یک متن نمونه که فقط برای نمایش این مورد است.</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">place</i>دوم</div>
+        <div class="collapsible-body"><span>یک متن نمونه که فقط برای نمایش این مورد است.</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">whatshot</i>سوم</div>
+        <div class="collapsible-body"><span>یک متن نمونه که فقط برای نمایش این مورد است.</span></div>
+      </li>
+    </ul>
+
+
+
+    <h3 class="header orange-text">دراپ‌داون</h3>
+    <!-- Dropdown Trigger -->
+    <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>کلیک کن!</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">یک</a></li>
+      <li><a href="#!">دو</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#!">سه</a></li>
+      <li><a href="#!"><i class="material-icons">view_module</i>چهار</a></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>پنج</a></li>
+    </ul>
+
+
+    <h3 class="header orange-text">مُدال‌ها</h3>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">نمایش مُدال</a>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>عنوان مُدال</h4>
+        <p>یک متن نمونه که فقط برای نمایش این مورد است</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">تائید</a>
+      </div>
+    </div>
+
+
+    <h3 class="header orange-text">سربرگ‌ها</h3>
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">سربرگ 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">سربرگ 2</a></li>
+          <li class="tab col s3 disabled"><a href="#test3">سربرگ غیرفعال</a></li>
+          <li class="tab col s3"><a href="#test4">سربرگ 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+        روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+        بهبود ابزارهای کاربردی می باشد.
+      </div>
+      <div id="test2" class="col s12">
+        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها
+        شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+      </div>
+      <div id="test3" class="col s12">
+        در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد
+        نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+      </div>
+      <div id="test4" class="col s12">
+        از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به
+        نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله
+        طراحی و صفحه‌بندی را به پایان برند.
+      </div>
+    </div>
+
+
+    <h3 class="header orange-text">فرم</h3>
+
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">textsms</i>
+            <input type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">نام فیلد</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="header orange-text">چک‌باکس‌ها</h3>
+    <form action="#">
+      <p>
+        <label>
+          <input type="checkbox" />
+          <span>مورد نمونه 1</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" checked="checked" />
+          <span>مورد نمونه 2</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" class="filled-in" checked="checked" />
+          <span>مورد نمونه 3</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input id="indeterminate-checkbox" type="checkbox" />
+          <span>یک مورد دیگر</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" checked="checked" disabled="disabled" />
+          <span>یک مورد غیرفعال</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" disabled="disabled" />
+          <span>یک مورد غیرفعال دیگر</span>
+        </label>
+      </p>
+    </form>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">درباره ما</h5>
+          <p class="grey-text text-lighten-4">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">تنظیمات</h5>
+          <ul>
+            <li><a class="white-text" href="#!">لینک 1</a></li>
+            <li><a class="white-text" href="#!">لینک 2</a></li>
+            <li><a class="white-text" href="#!">لینک 3</a></li>
+            <li><a class="white-text" href="#!">لینک 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">تماس</h5>
+          <ul>
+            <li><a class="white-text" href="#!">لینک 1</a></li>
+            <li><a class="white-text" href="#!">لینک 2</a></li>
+            <li><a class="white-text" href="#!">لینک 3</a></li>
+            <li><a class="white-text" href="#!">لینک 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        ساخته شده با <a class="orange-text text-lighten-3" href="http://materializecss.com">متریالایز</a>
+        و راست به چپ سازی توسط <a class="orange-text text-lighten-3" href="https://github.com/amirsaa" target="_blank">امیرصالحی</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.dropdown-trigger').dropdown();
+      $('.collapsible').collapsible();
+      $('.modal').modal();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+    });
+  </script>
+
+</body>
+
+</html>
