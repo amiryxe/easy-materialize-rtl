@@ -1,5 +1,6 @@
-# easy-Materialize-rtl
-Simple way to set RTL for materializecss.com. Suitable for Persian (Farsi), Arabic and more rtl languages.
+# Easy Materialize RTL
+Simple way to set RTL for materializecss.com. Suitable for Persian (Farsi), Arabic and more RTL languages.
+Just include **materialize-rtl.css** after Materialize Style :)
 
 # How to Setup
 1. Download Materialize last version from http://materializecss.com and import it to your project
