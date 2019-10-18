@@ -112,3 +112,28 @@ ul:not(.browser-default) {
   left: unset;
   right: 10px;
 }
+
+.chip {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+[type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+[type="radio"] + span:before, [type="radio"] + span:after {
+    right: 0;
+    left: unset;
+}
+
+.input-field.col label {
+    right: 0.75rem;
+    left: unset;
+}
+
+.select-wrapper .caret {
+    right: unset;
+    left: 0;
+}

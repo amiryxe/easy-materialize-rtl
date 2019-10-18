@@ -424,6 +424,161 @@
     </form>
 
 
+    <h3 class="header orange-text">تگ‌ها</h3>
+    <div class="chip">
+      تگ
+      <i class="close material-icons">close</i>
+    </div>
+
+    <div class="chip">
+      برچسب
+      <i class="close material-icons">close</i>
+    </div>
+
+    <div class="chip">
+      کلیدواژه
+      <i class="close material-icons">close</i>
+    </div>
+
+
+    <h3 class="header orange-text">چک‌باکس‌ها</h3>
+    <form action="#">
+      <p>
+        <label>
+          <input name="group1" type="radio" checked />
+          <span>زرد</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="group1" type="radio" />
+          <span>قرمز</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio" />
+          <span>سبز</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="group1" type="radio" disabled="disabled" />
+          <span>آبی</span>
+        </label>
+      </p>
+    </form>
+
+
+
+
+    <h3 class="header orange-text">انتخاب‌ها</h3>
+    <div class="row">
+      <div class="input-field col s6">
+        <select>
+          <option value="" disabled selected>یک مورد انتخاب کنید</option>
+          <option value="1">مورد 1</option>
+          <option value="2">مورد 2</option>
+          <option value="3">مورد 3</option>
+        </select>
+        <label>انتخاب از لیست</label>
+      </div>
+
+      <div class="input-field col s6">
+        <select multiple>
+          <option value="" disabled selected>یک مورد انتخاب کنید</option>
+          <option value="1">مورد 1</option>
+          <option value="2">مورد 2</option>
+          <option value="3">مورد 3</option>
+        </select>
+        <label>چندانتخابی</label>
+      </div>
+
+      <div class="input-field col s6">
+        <select>
+          <optgroup label="گروه 1">
+            <option value="1">مورد 1</option>
+            <option value="2">مورد 2</option>
+          </optgroup>
+          <optgroup label="گروه 2">
+            <option value="3">مورد 3</option>
+            <option value="4">مورد 4</option>
+          </optgroup>
+        </select>
+        <label>گروه‌بندی‌ها</label>
+      </div>
+
+      <div class="input-field col s6">
+        <select class="icons">
+          <option value="" disabled selected>یک مورد انتخاب کنید</option>
+          <option value="" data-icon="">نمونه 1</option>
+          <option value="" data-icon="">نمونه 2</option>
+          <option value="" data-icon="">نمونه 3</option>
+        </select>
+        <label>انتخاب از لیست</label>
+      </div>
+    </div>
+
+
+    <h3 class="header orange-text">سوییچ</h3>
+    <div class="switch">
+      <label>
+        فعال
+        <input type="checkbox" checked>
+        <span class="lever"></span>
+        غیرفعال
+      </label>
+    </div>
+
+
+    <h3 class="header orange-text">ورودی‌های متنی</h3>
+
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="متن راهنما" id="first_name" type="text" class="validate">
+            <label for="first_name">نام</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">نام خانوادگی</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input disabled value="قابل ویرایش نیست" id="disabled" type="text" class="validate">
+            <label for="disabled">غیرفعال</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">گذرواژه</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">رایانامه</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            این یک فیلد تک‌خطی است:
+            <div class="input-field inline">
+              <input id="email_inline" type="email" class="validate">
+              <label for="email_inline">رایانامه</label>
+              <span class="helper-text" data-error="wrong" data-success="right">متن راهنما</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+
+
 
     <br>
     <br>
@@ -469,7 +624,8 @@
     <div class="footer-copyright">
       <div class="container">
         ساخته شده با <a class="orange-text text-lighten-3" href="http://materializecss.com">متریالایز</a>
-        و راست به چپ سازی توسط <a class="orange-text text-lighten-3" href="https://github.com/amirsaa" target="_blank">امیرصالحی</a>
+        و راست به چپ سازی توسط <a class="orange-text text-lighten-3" href="https://github.com/amirsaa"
+          target="_blank">امیرصالحی</a>
       </div>
     </div>
   </footer>
@@ -486,6 +642,8 @@
       $('.modal').modal();
       $('.tabs').tabs();
       $('.tooltipped').tooltip();
+      $('select').formSelect();
+
     });
   </script>
 
