@@ -7,7 +7,6 @@ Just include **materialize-rtl.css** after Materialize Style :)
 There is a preview for Persian: [Show Demo](https://amirsaa.github.io/easy-Materialize-rtl/)
 
 
-
 # How to Setup
 1. Download Materialize last version from http://materializecss.com and import it to your project
 2. Download easy materialize rtl css files
@@ -16,5 +15,10 @@ There is a preview for Persian: [Show Demo](https://amirsaa.github.io/easy-Mater
 # Example
 ```html
 <link href="/css/materialize-rtl.min.css" rel="stylesheet">
+```
+
+# CDN
+```html
+<link href="https://cdn.jsdelivr.net/gh/amirsaa/easy-Materialize-rtl/materialize-rtl.min.css" rel="stylesheet">
 ```
 
