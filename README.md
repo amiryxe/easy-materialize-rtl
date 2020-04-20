@@ -21,4 +21,5 @@ There is a preview for Persian: [Show Demo](https://amirsaa.github.io/easy-Mater
 ```html
 <link href="https://cdn.jsdelivr.net/gh/amirsaa/easy-Materialize-rtl/materialize-rtl.min.css" rel="stylesheet">
 ```
-
+# Note
+When you set RTL to your document, consider tag orders. Everything is not like the materialize examples.
