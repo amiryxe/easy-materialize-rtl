@@ -4,7 +4,7 @@ Simple way to set RTL for materializecss.com. Suitable for Persian, Arabic and o
 Just include **materialize-rtl.css** after Materialize Style :)
 
 ## Demo
-There is a preview for Persian: [Show Demo](https://amirsaa.github.io/easy-materialize-rtl/)
+There is a preview for Persian: [Show Demo](https://amiryxe.github.io/easy-materialize-rtl/)
 
 
 ## How to Setup
@@ -19,7 +19,7 @@ There is a preview for Persian: [Show Demo](https://amirsaa.github.io/easy-mater
 
 ## CDN
 ```html
-<link href="https://cdn.jsdelivr.net/gh/amirsaa/easy-Materialize-rtl/materialize-rtl.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/amiryxe/easy-Materialize-rtl/materialize-rtl.min.css" rel="stylesheet">
 ```
 ## Note
 When you set RTL to your document, consider tag orders. Everything is not like the materialize examples.
