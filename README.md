@@ -23,6 +23,3 @@ Just include **materialize-rtl.css** after Materialize Style :)
 ```
 ## Note
 When you set RTL to your document, consider tag orders. Everything is not like the materialize examples.
-
-## راست‌چین کردن متریالایز
-به سادگی به ضمیمه کردن فایل `materialize-rtl.min.css` پس از فایل استایل اصلی، متریالایز را راست‌چین کنید.
